@@ -1,0 +1,210 @@
+body{
+  background-image: url("fundo.jpg")!important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 100px;
+  background: #000003;
+  width:100%;
+  box-sizing: border-box;
+}
+
+header.logo
+{
+ color:#fff;
+ height: 50px;
+ line-height:50px;
+ font-size: 24px;
+ float: left;
+ font-weight: bold;
+}
+header nav
+{
+  float: right;
+}
+
+header nav ul
+{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+header nav ul li
+{
+  list-style: none;
+  position: relative;
+}
+
+header nav ul li.sub-meu:before
+{ 
+  content:'\f0d7';
+  font-family:fontAwesome;
+  position: absolute;
+  line-height:50px;
+  color: #fff;
+
+}
+
+header nav ul li ul
+{
+  position: absolute;
+  left: 0;
+  background: #333;
+  display: none;
+}
+header nav ul li:hover ul
+{
+ display: block;
+}
+
+header nav ul li ul li
+{
+  display: block;
+  width: 200px;
+}
+
+header nav ul li a
+{
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
+
+button{
+  margin: 5px !important;
+}
+#corpo{
+  margin-top: 120px;
+}
+#cont{
+  color: rgb(1, 0, 3) !important; 
+  margin-bottom: 30px !important;
+  position: relative;
+  max-width: 800px;
+  padding: 50px;
+  background: rgba(255,255,255,.2);
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+nav{
+  font-size: 28px;
+	font-weight: bold;
+}
+li,a{
+  color: rgb(10, 112, 153) !important; 
+}
+footer{
+  
+}
+.menutg{
+  background-color: #0101DF !important;
+}
+.div-imagem{
+    top: left;
+    position: relative;
+    margin: 10px;
+    width: 150px;
+  height: 150px;
+}
+
+#vermelho{
+  background-color: red !important;
+  
+}
+
+#rosa{
+  background-color: pink !important;
+  
+}
+#verde{
+  background-color: green !important;
+  
+}
+.imagem{
+  width: 150px;
+  height: 150px;
+}
+
+.texto-imagem{
+    width: 84%;
+    height: 50%;
+    top: right;
+    float: right;
+    position: relative;
+    text-align: justify;
+    margin-left: 15px;
+}
+.texto-produto{
+  width: 50%;
+    top: right;
+    float: right;
+    position: relative;
+    text-align: justify;
+    margin-left: 15px;
+}
+
+
+.cor-carrocel{
+  background-color: #E6E6E6 !important;
+  }
+.carousel-item{
+  position: center;
+}
+#img-carrocel {
+    margin-left: 30%;
+}
+@media screen and (max-width: 900px) {
+  #img-carrocel {
+    margin-left: 0%;
+   /* background-color: violet;*/
+  }
+}
+
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+/* Remove as bordas arredondadas padrão da barra de navegação e aumenta a margem inferior */ 
+.navbar {
+    margin-bottom: 50px;
+    border-radius: 0;
+
+  }
+  
+  /* Remove a margem inferior padrão do jumbotron */ 
+   .jumbotron {
+    margin-bottom: 0;
+  }
+ 
+  /* Adiciona uma cor de fundo cinza e algum preenchimento ao rodapé */
+  footer {
+   
+    padding: 25px;
+  }
